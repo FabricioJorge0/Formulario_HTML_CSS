@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro | Endereço</title>
+
+  <link rel="stylesheet" href="/proximo/styleP.css">
+
+  <script>
+    function mostrarResultado() {
+                document.getElementById("resultado").innerHTML = document.getElementById("filhos").value;
+    }
+  </script>
+</head>
+<body>
+    <div class="conteiner">
+      <form action="">
+        <fieldset>
+          <legend>Dados do Endereço</legend>
+          <br>
+          <div class="dados_endereco">
+            <div class="dados_endereco">
+              <input type="text" name="endereco" id="endereco" class="endereco" placeholder="Digite aqui seu Endereço">
+            </div>
+            <br>
+            <div class="dados_endereco" >
+              <input type="text" name="bairro" id="bairo" class="endereco" placeholder="Digite aqui seu bairro">
+            </div>
+            <br>
+            <div class="dados_endereco" >
+              <input type="text" name="cidade" id="cidade" class="endereco" placeholder="Digite aqui a sua Cidade">
+            </div>
+            <br>
+            <div class="dados_endereco" >
+              <input type="text" name="cep" id="cep" class="endereco" placeholder="Digite aqui seu Cep">
+            </div>
+            <br>
+            <p>Tipo:</p>
+            <div>
+              <input type="radio" name="complemento" id="casa" value="casa">
+              <label for="casa">Casa</label>
+            </div>
+            <div>
+              <input type="radio" name="complemento" id="apartamento" value="apartamento">
+              <label for="apartamento">Apartamento</label>
+            </div>
+            <div>
+              <input type="radio" name="complemento" id="condominio" value="condominio">
+              <label for="condominio">Condominio</label>
+            </div>
+            <br><br>
+            <div class="filhos">
+              <label for="filhos">Quantas pessoas moram com você?</label>
+              <input type="range" id="filhos" min="1" max="10" class="filhos1" value="1" onchange="mostrarResultado()">
+              <span id="resultado"></span>
+            </div>
+            <br><br><br><br>
+            <button class="submit"><a href="/proximo/competencias/index3.html">Próximo</a></button>
+          </div>
+        </fieldset>
+      </form>
+    </div>
+</body>
+</html>

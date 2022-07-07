@@ -1,0 +1,68 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: linear-gradient(to right, rgb(163, 8, 241), rgb(25, 4, 249));
+}
+
+.conteiner {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 15px;
+  border-radius: 12px;
+  width: 30%;
+}
+
+
+fieldset {
+  border: solid 1px dodgerblue;
+}
+
+legend {
+  text-align: center;
+  border: solid 1px dodgerblue;
+  background-color: dodgerblue;
+  border-radius: 5px;
+  padding: 5px 5px;
+}
+
+.senioridade select {
+  color: white;
+  border: none;
+  background: none;
+  padding: 8px;
+  width: 75%;
+  border-bottom: solid 1px dodgerblue;
+}
+
+.senioridade select .escolha {
+  color: black;
+}
+
+.subcaixa {
+  display: inline;
+  padding: 10px;
+}
+
+#submit {
+  background-image: linear-gradient(to right, rgb(163, 8, 241), rgb(25, 4, 249));
+  width: 100%;
+  font-size: 16px;
+  border: none;
+  padding: 8px;
+  border-radius: 12px;
+  
+}
+
+#submit a {
+  text-decoration: none;
+  color: white;
+  display: block;
+}
+
+#submit:hover {
+  background-image: linear-gradient(to right, rgb(55, 1, 83), rgb(16, 4, 140));
+}
+

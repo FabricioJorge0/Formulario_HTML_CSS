@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro | Dados pessoais</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+      <div class="conteiner">
+        <form action="#">
+            <fieldset>
+              <legend>Dados pessoais</legend>
+              <br>
+              <div class="dados_pessoais">
+                  <input type="text" name="nome" id="nome" class="dados" placeholder="Insira aqui o seu Nome Completo" required>
+              </div>
+              <br>
+              <div class="dados_pessoais">
+                  <input type="email" name="email" id="email" class="dados" placeholder="Insira aqui o seu Email" required>
+              </div>
+              <br>
+              <div class="dados_pessoais">
+                  <input type="tel" name="telefone" id="telefone" class="dados" placeholder="Insira aqui o seu Telefone" required>
+              </div>
+              <br>
+              <p>Sexo:</p>
+              
+              <div class="genero">
+                  <input type="radio" name="genero" id="feminino" value="feminino">
+                  <label for="feminino">feminino</label>
+              </div>
+              <div class="genero">
+                  <input type="radio" name="genero" id="masculino" value="masculino">
+                  <label for="masculino">masculino</label>
+              </div>
+              <div class="genero">
+                  <input type="radio" name="genero" id="outros" value="outros">
+                  <label for="outros">Outros</label>
+              </div>
+              <br><br>
+
+              <label for="nascimento">Data de Nascimento</label>
+              <input type="date" name="nascimento" id="nascimento">
+              <br><br><br>
+              <button class="submit"><a href="/proximo/index2.html" >Próximo</a></button>
+            </fieldset>
+        </form>
+      </div>
+</body>
+</html>

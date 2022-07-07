@@ -1,0 +1,79 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: linear-gradient(to right, rgb(163, 8, 241), rgb(25, 4, 249));
+}
+
+.conteiner {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 15px;
+  border-radius: 12px;
+  width: 30%;
+}
+
+fieldset {
+  border: solid 1px dodgerblue;
+}
+
+legend {
+  text-align: center;
+  border: solid 1px dodgerblue;
+  background-color: dodgerblue;
+  border-radius: 5px;
+  padding: 5px 5px;
+}
+
+.dados_endereco {
+  position: relative;
+}
+
+.endereco {
+  border: none;
+  background: none;
+  outline: none;
+  width: 75%;
+  border-bottom: solid 1px dodgerblue;
+  color: white;
+  
+ 
+  
+
+}
+
+.filhos {
+  border: solid 1px dodgerblue;
+  padding: 5px;
+
+}
+
+.filhos1{
+  display: inline;
+}
+
+.submit {
+  background-image: linear-gradient(to right, rgb(163, 8, 241), rgb(25, 4, 249));
+  width: 100%;
+  padding: 8px;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 15px;
+
+
+}
+
+.submit:hover {
+  background-image: linear-gradient(to right, rgb(161, 8, 237), rgb(35, 16, 239));
+  box-shadow: 5px 5px 10px #000000;
+}
+
+.submit a {
+  text-decoration: none;
+  color: white;
+  display: block;
+}
+
